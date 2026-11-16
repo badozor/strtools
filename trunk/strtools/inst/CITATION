@@ -1,0 +1,19 @@
+bibentry(
+  bibtype = "Article",
+  title   = "DNA fingerprinting of glioma cell lines and considerations on similarity measurements",
+  author  = c(person("Pierre", "Bady"), person("Annie-Claire", "Diserens"),
+              person("Vincent", "Castella"), person("Stefanie", "Kalt"),
+              person("Karl", "Heinimann"), person("Marie-France", "Hamou"),
+              person("Mauro", "Delorenzi"), person(c("Monika", "E."), "Hegi")),
+  journal = "Neuro-Oncology",
+  year    = "2012",
+  volume  = "14",
+  number  = "6",
+  pages   = "701--711",
+  doi     = "10.1093/neuonc/nos072",
+  textVersion = paste(
+    "Bady P, Diserens AC, Castella V, Kalt S, Heinimann K, Hamou MF,",
+    "Delorenzi M, Hegi ME (2012). DNA fingerprinting of glioma cell lines",
+    "and considerations on similarity measurements. Neuro-Oncology,",
+    "14(6), 701-711. doi:10.1093/neuonc/nos072")
+)

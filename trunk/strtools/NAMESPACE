@@ -1,0 +1,15 @@
+importFrom(ade4, prep.fuzzy.var, as.randtest)
+importFrom(stats, na.omit)
+
+export(EVindex)
+export(REbracketout, REspaceout, REzeroout)
+export(recode.STR1col, recode.STR2col)
+export(prep.fuzzy.genocell)
+export(genocell2tab)
+export(heterozygosity)
+export(simAIJ.marker, simAIJ.peak)
+export(simSIM.marker, simSIM2.marker, simSIM3.marker,
+       simSIM4.marker, simSIM4plus.marker)
+
+S3method(heterozygosity, genocell)
+S3method(merge, genocell)

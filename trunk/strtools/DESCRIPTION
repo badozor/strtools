@@ -1,0 +1,24 @@
+Package: strtools
+Type: Package
+Title: Tools for the Analysis of STR Fingerprinting Data
+Version: 1.0.1
+Date: 2026-11-15
+Authors@R: person("Pierre", "Bady", email = "badozor@gmail.com",
+    role = c("aut", "cre"))
+Description: Functions used to encode and compare short tandem repeat (STR)
+    DNA fingerprints of cell lines, as described in Bady et al. (2012)
+    <doi:10.1093/neuonc/nos072>. STR profiles are recoded as allele
+    presence/absence tables ('genocell' objects), compared with the
+    Masters (EV) similarity index, summarised by marker (homozygosity,
+    heterozygosity) and studied by simulation of similarity scores.
+Depends: R (>= 3.5.0), ade4
+Suggests: boot
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/badozor/strtools
+BugReports: https://github.com/badozor/strtools/issues
+NeedsCompilation: no
+Packaged: 2026-11-15 22:22:00 UTC; root
+Author: Pierre Bady [aut, cre]
+Maintainer: Pierre Bady <badozor@gmail.com>
