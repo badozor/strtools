@@ -17,7 +17,10 @@ changes needed to run under current R and ade4 were made.
 * Package moved to the root of the repository; old build scripts,
   source tarball and manual moved to `legacy/`.
 * Added `NAMESPACE`, `inst/CITATION`, `README.md` and `NEWS.md`.
-* `DESCRIPTION` updated (`Authors@R`, `License: GPL (>= 2)`,
+* License changed from "GPL version 2 or newer" to GPL-3, to match the
+  `LICENSE` file of the repository.
+* Hexagonal logo added in `logo/`.
+* `DESCRIPTION` updated (`Authors@R`, `License: GPL-3`,
   `LazyData`, `Encoding: UTF-8`).
 
 ## Documentation
